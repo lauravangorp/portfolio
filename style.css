@@ -274,14 +274,11 @@ header .socials i:hover{
   padding-top: 22vh;
   padding-bottom: 10vh;
   text-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   }
 
 .hero-content h1 {
   max-width: 30rem;
-  font-weight: 700;
   font-size: 4.5rem;
   line-height: 1.263;
   letter-spacing: 0;
@@ -292,9 +289,9 @@ header .socials i:hover{
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: white;
   text-transform: uppercase;
-  font-weight: 900;
   text-align: left;
   margin-left: 10rem;
+  font-weight: bold;
 }
 
   /* lijn boven hero tekst */
@@ -647,7 +644,7 @@ main{
 }
 
 .work div{
-  margin-top: 8rem;
+  margin-top: 3rem;
   margin-left: 3rem;
 }
 
