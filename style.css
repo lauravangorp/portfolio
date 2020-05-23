@@ -5,10 +5,10 @@ html{
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: black;
-  font-weight: normal;
   line-height: 1;
   color: white;
   height: 100%;
+  font-weight: lighter;
 }
 
 /* site header */
@@ -292,7 +292,6 @@ header .socials i:hover{
   text-transform: uppercase;
   text-align: left;
   margin-left: 10rem;
-  font-weight: 900;
 }
 
   /* lijn boven hero tekst */
@@ -471,6 +470,7 @@ header .socials i:hover{
     }
 
 }
+
 @media (min-width:1000px){
 .hero-content h1 {
   font-size: 7rem;}
@@ -661,7 +661,6 @@ main{
   max-width:35rem;
   background-color: orange;
   padding: 1rem;
-  font-weight: normal;
 }
 
 .work .knop{
