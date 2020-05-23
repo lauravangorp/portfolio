@@ -661,6 +661,7 @@ main{
   max-width:35rem;
   background-color: orange;
   padding: 1rem;
+  font-weight: normal;
 }
 
 .work .knop{
@@ -732,13 +733,18 @@ main{
 
   .werk1{
     grid-column: 2;
+    padding-right: 3rem;
   }
 
   .work .knop{
     grid-column: 2;
     position: absolute;
-    left:-68rem;
+    left:-66rem;
     top: 27rem;
+  }
+
+  .werk2{
+    padding-top: 12rem;
   }
 }
 
