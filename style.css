@@ -278,7 +278,7 @@ header .socials i:hover{
   }
 
 .hero-content h1 {
-  max-width: 30rem;
+  max-width: 40rem;
   font-size: 4.5rem;
   line-height: 1.263;
   letter-spacing: 0;
@@ -286,12 +286,12 @@ header .socials i:hover{
   padding-top: 3.2rem;
   position: relative;
   color: rgba(0, 0, 0, 0.4);
-  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: white;
   text-transform: uppercase;
   text-align: left;
   margin-left: 10rem;
-  font-weight: bold;
+  font-weight: 900;
 }
 
   /* lijn boven hero tekst */
@@ -470,7 +470,10 @@ header .socials i:hover{
     }
 
 }
-
+@media (min-width:1000px){
+.hero-content h1 {
+  font-size: 7rem;}
+}
 
 /* main */
 main{
