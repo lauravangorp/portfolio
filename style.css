@@ -624,7 +624,7 @@ main{
     padding: 10rem auto;
     position: relative;
     margin: 5rem;
-    margin-left: 2rem;
+    margin-left:1rem;
     }
 
 .work section {
@@ -637,6 +637,7 @@ main{
     text-transform: uppercase;
     margin-bottom: 5rem;
     margin-top: 10rem;
+    margin-left: 2rem;
   }
 
 .work img{
@@ -941,8 +942,8 @@ main{
 
   .logo{
       position: absolute;
-      left: 5rem;
-      top:5rem;
+      left: 4rem;
+      top:6rem;
       height: 4rem;
       padding-bottom: 1rem;}
 
