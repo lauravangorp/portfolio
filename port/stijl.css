@@ -562,7 +562,7 @@ h2 span{
   .categorie{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem 3rem;
+    grid-gap: 4rem 3rem;
   }
 
   .categorie div h2  {
@@ -582,7 +582,7 @@ h2 span{
 
   .categorie a:hover h2 {
     opacity: 1;
-    padding-top: 31rem;
+    padding-top: 29.5rem;
   }
 
   .categorie div{
