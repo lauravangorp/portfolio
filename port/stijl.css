@@ -534,11 +534,10 @@ main {
 .categorie div h2  {
   height: 40rem;
   width: 40rem;
-  white-space: no- wrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 0px;
-  text-align: center;
+  text-align: left;
   font-size: 1.3rem;
   color: white;
   transition: 1s;
@@ -568,7 +567,6 @@ h2 span{
   .categorie div h2  {
     height: 40rem;
     width: 40rem;
-    white-space: no- wrap;
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 0px;
