@@ -156,7 +156,7 @@ header .socials{
   margin-bottom: 2rem;
   margin-left: -1rem;
   top: 70rem;
-  left: 4.5rem;
+  left: 5.7rem;
 }
 
 header .socials i{
@@ -664,6 +664,11 @@ main{
   background-color: orange;
   padding: 1rem;
 }
+.work p span{
+  font-weight: bold;
+  display: block;
+  padding-bottom: 1rem;
+}
 
 .work .knop{
   background-color: none; /* Green */
@@ -762,7 +767,7 @@ main{
 .portfolio section {
     margin-top: 6rem;
     position: relative;
-    padding-left: 3rem;}
+    padding-left: 5.5rem;}
 
 .portfolio h3 {
     font-size: 4rem;

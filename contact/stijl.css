@@ -153,7 +153,7 @@ header .socials{
   margin-bottom: 2rem;
   margin-left: -1rem;
   top: 70rem;
-  left: 4.5rem;
+  left: 5.7rem;
 }
 
 header .socials i{
@@ -171,12 +171,13 @@ header .socials i:hover{
 .con{
   position: absolute;
   top: 56rem;
-  left: 4rem;
+  left: 5rem;
 }
 
 .con h4{
   text-transform: uppercase;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .con p{

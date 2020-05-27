@@ -154,7 +154,7 @@ header .socials{
   margin-bottom: 2rem;
   margin-left: -1rem;
   top: 70rem;
-  left: 4.5rem;
+  left: 5.7rem;
 }
 
 header .socials i{
@@ -172,12 +172,13 @@ header .socials i:hover{
 .con{
   position: absolute;
   top: 56rem;
-  left: 4rem;
+  left: 5rem;
 }
 
 .con h4{
   text-transform: uppercase;
   margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .con p{
@@ -281,7 +282,7 @@ header .socials i:hover{
 .hero-content h1 {
   max-width: 30rem;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 4.5rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
@@ -293,7 +294,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 10rem;
+  margin-left: 6rem;
 }
 
   /* lijn boven hero tekst */
