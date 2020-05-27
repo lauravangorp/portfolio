@@ -404,21 +404,14 @@ main {
   background-color: black;
   height: 30rem;
   max-width: 40rem;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
   background-size: cover;
   background-position: center;
   margin-left: 1rem;
-  -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
   transition: 1s;
-}
-
-.categorie div:hover{
-  transform: scale(0.95);
-  -webkit-filter: grayscale(0);
-	filter: grayscale(0);
+  text-transform: uppercase;
 }
 
 .categorie div:nth-child(1){
@@ -545,16 +538,14 @@ main {
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 0px;
-  opacity: 0;
   text-align: center;
-  padding-top: 26rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
   transition: 1s;
+  line-height: 2rem;
 }
 
-.categorie a:hover h2 {
-  opacity: 1;
+.categorie a h2 {
   padding-top: 31rem;
 }
 
@@ -572,6 +563,36 @@ h2 span{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem 3rem;
+  }
+
+  .categorie div h2  {
+    height: 40rem;
+    width: 40rem;
+    white-space: no- wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    opacity: 0;
+    text-align: center;
+    padding-top: 26rem;
+    font-size: 1.5rem;
+    color: white;
+    transition: 1s;
+  }
+
+  .categorie a:hover h2 {
+    opacity: 1;
+    padding-top: 31rem;
+  }
+
+  .categorie div{
+    -webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);}
+
+  .categorie div:hover{
+    transform: scale(0.95);
+    -webkit-filter: grayscale(0);
+  	filter: grayscale(0);
   }
 
   #filters {
