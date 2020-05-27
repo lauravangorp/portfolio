@@ -643,6 +643,7 @@ transition: 0.4s;
 
       .skills h3 {
           font-size: 4rem;
+          margin-bottom: 0rem;
         }
 
       .skills section{
