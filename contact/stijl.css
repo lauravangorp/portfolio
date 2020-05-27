@@ -152,7 +152,7 @@ header .socials{
   position: absolute;
   margin-bottom: 2rem;
   margin-left: -1rem;
-  top: 70rem;
+  top: 63rem;
   left: 5.7rem;
 }
 
@@ -170,7 +170,7 @@ header .socials i:hover{
 
 .con{
   position: absolute;
-  top: 56rem;
+  top: 50rem;
   left: 5rem;
 }
 
@@ -501,7 +501,10 @@ textarea:hover {
       margin-left: 34%;
     }
 }
+
+
 /*footer*/
+
   footer {
     height: 15rem;
     width: 100%;
@@ -516,7 +519,6 @@ textarea:hover {
     margin-top: 1.6rem;
     padding-bottom: -2rem;
     color: grey;
-    margin-left: 6%;
   }
 
   footer p{
@@ -529,38 +531,41 @@ textarea:hover {
     text-decoration: none;
     font-size: 1.1rem;
     text-transform: uppercase;
-    transition: 0.5s;
   }
 
   .links{
     margin-top: 3rem;
     margin-bottom: 1rem;
-    margin-left: 30%;
+    margin-left: 25%;
     text-decoration: none;
   }
 
   footer p a:hover{
     color: #fb8b23;
+    transition: 0.5s;
+
   }
 
   .logo{
       position: absolute;
-      left: 5rem;
-      top:5rem;
-      height: 5rem;
+      left: 4rem;
+      top:6rem;
+      height: 4rem;
       padding-bottom: 1rem;}
 
-  footer .socials i{
-    font-size: 2rem;
-    color: white;
-    margin-left: 1rem;
-    transition: 1s;
-  }
 
-  footer .socials i:hover{
-    transform: scale(1.2);
-    cursor:pointer;
-}
+
+      footer .socials i{
+        font-size: 2rem;
+        color: white;
+        margin-left: 1rem;
+        transition: 1s;
+      }
+
+      footer .socials i:hover{
+        transform: scale(1.2);
+        cursor:pointer;
+      }
 
       .socials{
         margin-left: 14%;
@@ -578,6 +583,7 @@ textarea:hover {
     .links{
       margin-top: 4rem;
       margin-left: 35%;
+
     }
 
     footer p{
@@ -587,13 +593,19 @@ textarea:hover {
     .socials{
       margin-left: 9%;
     }
+
+    .logo{
+      height: 5rem;
+
+    }
 }
 
   @media(min-width:1000px) {
     .links{
-      margin-left: 42%;
+      margin-left: 40.5%;
     }
     .socials{
       margin-left: 7%;
     }
+
 }
