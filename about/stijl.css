@@ -640,6 +640,7 @@ transition: 0.4s;
           grid-template-columns: 1fr 1fr 1fr;
           padding: 10rem 8rem;
           grid-gap: 0rem 2.5rem;
+          padding-top: 5rem;
       }
 
       .skills h3 {
@@ -744,10 +745,12 @@ transition: 0.4s;
 
       .talen h3 {
         font-size: 4rem;
+        margin-bottom: 0rem;
         }
 
       .talen h3::before{
           width: 94%;
+
       }
 
       .talen section{
@@ -824,6 +827,7 @@ transition: 0.4s;
   			display: grid;
   			grid-template-columns: 1fr 1fr;
         padding: 10rem 0rem;
+        padding-bottom: 5rem;
   	}
 
     .education h3 {
