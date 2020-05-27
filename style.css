@@ -911,7 +911,6 @@ main{
     margin-top: 1.6rem;
     padding-bottom: -2rem;
     color: grey;
-    margin-left: 6%;
   }
 
   footer p{
@@ -929,7 +928,7 @@ main{
   .links{
     margin-top: 3rem;
     margin-bottom: 1rem;
-    margin-left: 30%;
+    margin-left: 25%;
     text-decoration: none;
   }
 
@@ -943,7 +942,7 @@ main{
       position: absolute;
       left: 5rem;
       top:5rem;
-      height: 5rem;
+      height: 3rem;
       padding-bottom: 1rem;}
 
 
@@ -985,6 +984,15 @@ main{
 
     .socials{
       margin-left: 9%;
+    }
+
+
+    .logo{
+      position: absolute;
+      left: 5rem;
+      top:5rem;
+      height: 5rem;
+      padding-bottom: 1rem;
     }
 }
 
