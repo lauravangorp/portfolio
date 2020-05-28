@@ -512,8 +512,6 @@ main{
   color: white;
   background-color: #222222;
   box-shadow: 2px 3px 8px grey;
-  font-weight: bold;
-  border-radius: 30px;
 }
 
   .about-content{
@@ -694,7 +692,6 @@ main{
   color: #222222;
   background-color: white;
   box-shadow: 0.2rem 0.2rem 0.7rem grey;
-  font-weight: bold;
   border-radius: 3rem;
 }
 
