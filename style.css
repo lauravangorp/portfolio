@@ -481,6 +481,7 @@ header .socials i:hover{
 /* main */
 main{
   transition: 1s;
+  transition-property: all;
 }
 
 /* about */
