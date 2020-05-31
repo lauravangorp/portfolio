@@ -320,7 +320,7 @@ header .socials i:hover{
   transform: none;
   right: auto;
   left: 0;
-  bottom: 15rem;
+  bottom: 20rem;
   position: absolute;
   transition: .5s;
 }
