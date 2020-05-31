@@ -3,7 +3,7 @@
 	<head>
 		<title>Portfolio of Laura Van Gorp, Antwerp Based Graphic & Web Designer</title>
 		<link rel="stylesheet" type="text/css" href="reset_plus.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" id="switchcss" href="style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/4b567f9bd6.js" crossorigin="anonymous"></script>
 		<script src="script.js" defer></script>
@@ -17,7 +17,8 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img class="donker" src="images/logo.png" alt="Homepage">
+								<img class="licht" src="images/logoblk.png" alt="Homepage">
             </a>
         </div>
 
@@ -33,6 +34,12 @@
                 <li><a href="port/index.html" title="">Portfolio</a></li>
                 <li><a href="contact/index.html" title="Contact us">Contact</a></li>
             </ul>
+
+						<nav>
+							<a href="#" class="dark">DARK MODE</a>
+							<a href="#" class="light">LIGHT MODE </a>
+						</nav>
+
 						<div class="socials">
 							<a href="https://www.facebook.com/LauraVanGorp"> <i class="fab fa-facebook"></i></a>
 							<a href="https://www.behance.net/lauravangorpa"><i class="fab fa-behance"></i></a>
@@ -193,6 +200,7 @@
 						</div>
 			</div>
 			<h3>© LAURA VAN GORP, 2020</h2>
-				<a href="#" ><img class="logo" src="images/logo.png" alt="aplogo"></a>
+				<a href="#" ><img class="logo donker" src="images/logo.png" alt="logo"></a>
+				<a href="#" ><img class="logo licht"  src="images/logoblk.png" alt="logo"></a>
 
     </footer>
